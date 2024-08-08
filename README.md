@@ -26,11 +26,13 @@ AI 기반 챗봇 및 OCR 개발에 열정을 가진 개발자입니다. 혁신�
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white)
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white)
 
+```
 ## 📊 GitHub 통계
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical" alt="GitHub Stats">
 </p>
+```
 
 ## 🌟 주요 프로젝트
 
