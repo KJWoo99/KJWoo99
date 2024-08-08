@@ -1,14 +1,11 @@
 # 👋 안녕하세요, 곽정우입니다
 
-<p align="center">
-  <img src="https://your-image-url-here.com" alt="Profile Banner" width="100%">
-</p>
 
 ## 🚀 자기 소개
 
 AI 기반 챗봇 및 OCR 개발에 열정을 가진 개발자입니다. 혁신적인 솔루션을 만들어 사용자 경험을 향상시키는 것이 저의 목표입니다.
 
-- 🎓 **학위:** Coventry University 컴퓨팅 과학 학사 (First Class Honours), 2022.07 - 2024.03
+- 🎓 **학위:** Coventry University 컴퓨팅 과학 학사 (First Class Honours) 2024.03 졸업
 - 🏆 **수료:** 한국 IT 아카데미 AI 기반 챗봇 및 OCR 개발 전문가 과정 (2023.08.31 - 2024.03.07)
 
 ## 🛠️ 기술 스택
@@ -43,9 +40,9 @@ AI 기반 챗봇 및 OCR 개발에 열정을 가진 개발자입니다. 혁신�
 
 ## 📫 연락처
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/your-profile/)
-- 🐦 Twitter: [@YourTwitter](https://twitter.com/your-twitter)
+- 📧 Email: efef135@naver.com
+- 💼 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/jeongwoo-kwak-7414a9290/)
+
 
 ---
 
