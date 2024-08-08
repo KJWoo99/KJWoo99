@@ -41,7 +41,7 @@ AI 기반 챗봇 및 OCR 개발에 열정을 가진 개발자입니다. 혁신�
 ## 📫 연락처
 
 - 📧 Email: efef135@naver.com
-- 💼 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/jeongwoo-kwak-7414a9290/)
+- 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeongwoo-kwak-7414a9290/)
 
 
 ---
