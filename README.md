@@ -41,6 +41,9 @@ AI 분야에서 새로운 도약을 이루어낼 수 있는 기회를 희망하�
 - [프로젝트 2](링크): 취업예정자를 위한 AI기반 모의면접 어플리케이션 
 - [프로젝트 3](링크): 간단한 설명
 
+## 📚 연구 논문
+- [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): AI 의료 적용의 우려사항과 개발 전략 분석
+
 ## 📫 연락처
 
 - 📧 Email: efef135@naver.com
