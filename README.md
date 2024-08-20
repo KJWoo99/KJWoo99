@@ -32,7 +32,7 @@ I hope for opportunities to make new leaps in AI and wish to create a better fut
 ## 📚 Research Paper
 - [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): Analysis of concerns and development strategies for AI application in healthcare
 ## 📫 Contact
-- 📧 Email: efef135@naver.com
+- 📧 Email: woo010487@gmail.com
 - 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeongwoo-kwak-7414a9290/)
 ---
 <p align="center">
