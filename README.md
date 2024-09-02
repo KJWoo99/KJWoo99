@@ -25,7 +25,7 @@ I hope for opportunities to make new leaps in AI and wish to create a better fut
 </p>
 -->
 ## 🌟 Key Projects
-- [Project 1](https://github.com/KJWoo99/Online_Shopping_Site): Online shopping mall (React) and AI-based web crawling for data collection and automated selling point creation for administrators
+- [Project 1](https://github.com/KJWoo99/Online_Shopping_Site): Online shopping site(React) and AI-based web crawling for data collection and automated selling point creation(For Administrator)
 - [Project 2](https://github.com/KJWoo99/InterviewGoApp): AI-based mock interview application for job seekers
 - [Project 3](https://github.com/KJWoo99/RealTime-FaceRecog-RaspberryPi/tree/main): Real-time face recognition and cloud-based monitoring system
 - [Project 4](LINK): Explain
