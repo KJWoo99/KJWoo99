@@ -27,8 +27,8 @@ I hope for opportunities to make new leaps in AI and wish to create a better fut
 ## 🌟 Key Projects
 - [Project 1](https://github.com/KJWoo99/RealTime-FaceRecog-RaspberryPi/tree/main): Real-time face recognition and cloud-based monitoring system
 - [Project 2](https://github.com/KJWoo99/Online_Shopping_Site): Online shopping site(React) and AI-based web crawling for data collection and automated selling point creation(For Administrator)
-- [Project 3](https://github.com/KJWoo99/BookHUB): **BOOKHUB**-It is a web application that integrates public library book information, allowing users to search for books to check the borrowing status and location. Also obtain book summary details through AI-powered search
-- [Project 4](https://github.com/KJWoo99/InterviewGoApp): **InterviewGo**-AI-based mock interview application for job seekers
+- [**BookHUB**](https://github.com/KJWoo99/BookHUB): It is a web application that integrates public library book information, allowing users to search for books to check the borrowing status and location. Also obtain book summary details through AI-powered search
+- [**InterviewGo**](https://github.com/KJWoo99/InterviewGoApp): AI-based mock interview application for job seekers
 - [Project 5](LINK): Explain
 ## 📚 Research Paper
 - [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): Analysis of concerns and development strategies for AI application in healthcare
