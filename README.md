@@ -1,7 +1,5 @@
 # 👋 Hello, I'm Jeongwoo Kwak
 ## 🚀 Self-Introduction
-I'm a developer passionate about adding value through collaboration and innovation in the AI field.
-I hope for opportunities to make new leaps in AI and wish to create a better future.
 - 🎓 **Degree:** BSc Computing Science, Coventry University (First Class Honours) Graduated March 2024
 - 🏆 **Certification:** Korea IT Academy AI-based Chatbot and OCR Development Expert Course (2023.08.31 - 2024.03.07)
 ## 🛠️ Tech Stack
