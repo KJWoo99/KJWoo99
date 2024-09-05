@@ -1,7 +1,4 @@
 # 👋 Hello, I'm Jeongwoo Kwak
-## 🚀 Self-Introduction
-- 🎓 **Degree:** BSc Computing Science, Coventry University (First Class Honours) Graduated March 2024
-- 🏆 **Certification:** Korea IT Academy AI-based Chatbot and OCR Development Expert Course (2023.08.31 - 2024.03.07)
 ## 🛠️ Tech Stack
 ### Programming Languages & Frameworks
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
