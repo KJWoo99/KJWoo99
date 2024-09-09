@@ -31,7 +31,7 @@
 - 📧 Email: woo010487@gmail.com
 - 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeongwoo-kwak-7414a9290/)
 - 🖥️ Notion(ENG ver): [Notion](https://kjwoo.notion.site/Hi-I-m-Jungwoo-Kwak-8e58fc8f82d9437e884dc161bf823423?pvs=74)
-- 🖥️ Notion(KOR ver):[Notion](https://kjwoo.notion.site/4f8f5d55abb2473db637b5de4dd758f6?pvs=74)
+- 🖥️ 노션(KOR ver):[Notion](https://kjwoo.notion.site/4f8f5d55abb2473db637b5de4dd758f6?pvs=74)
 ---
 <p align="center">
   <i>I'm ready to create innovative AI solutions together!</i>
