@@ -25,6 +25,7 @@
 - [**BookHUB**](https://github.com/KJWoo99/BookHUB): It is a web application that integrates public library book information, allowing users to search for books to check the borrowing status and location. Also obtain book summary details through AI-powered search
 - [**InterviewGo**](https://github.com/KJWoo99/InterviewGoApp): AI-based mock interview application for job seekers
 - [**AutoAware**](https://github.com/KJWoo99/AutoAware): OpenCV-based Driver Monitoring System (DMS)
+- [**KJWADAS**](https://github.com/KJWoo99/KJWADAS): Self-studying to Create an ADAS (ADAS based on YOLOv8)
 ## 📚 Research Paper
 - [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): Analysis of concerns and development strategies for AI application in healthcare
 ## 📫 Contact
