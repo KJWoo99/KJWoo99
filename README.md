@@ -25,7 +25,7 @@ Currently building production-ready pipelines from model training through ONNX/T
 
 - [**Media Lens**](https://github.com/KJWoo99/media-lens): AI-powered media management desktop app — CLIP (ViT-H-14), SigLIP2, DINOv2 (ViT-B-14) integrated. PyTorch → ONNX → TensorRT FP16 inference pipeline, GPU VRAM-based dynamic batching, OOM recovery, cosine similarity-based duplicate detection
 
-- [**Medical Image Classification**](https://github.com/KJWoo99/Medical-Image-Classification): Deep learning classification on 3 medical domains — Lung Cancer (YOLOv8s-cls, Top-1 Acc 90.83%), Skin Disease (EfficientNet-B5), Dental Disease (EfficientNet-B5, Gradient Accumulation)
+- [**Medical Image Classification**](https://github.com/KJWoo99/Medical_Image_Classification): Deep learning classification on 3 medical domains — Lung Cancer (YOLOv8s-cls, Top-1 Acc 90.83%), Skin Disease (EfficientNet-B5), Dental Disease (EfficientNet-B5, Gradient Accumulation)
 
 - [**KJWADAS**](https://github.com/KJWoo99/KJWADAS): Real-time ADAS — lane detection (UNet++) + object detection (YOLOv8) with hazard alert system
 
