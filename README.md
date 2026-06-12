@@ -27,6 +27,8 @@ Currently building production-ready pipelines from model training through ONNX/T
 
 - [**YOLO Object Detection**](https://github.com/KJWoo99/YOLO_Object_Detection): Object detection & instance segmentation across 3 domains — Safety Helmet (YOLOv8n, 3-class), Road Crack (YOLOv8n, 7-class, rect training), Car Damage (YOLO11n-seg, 4-class polygon mask). Pascal VOC XML / JSON polygon → YOLO format conversion pipelines.
 
+- [**Media Lens**](https://github.com/KJWoo99/media-lens): AI-powered media management desktop app — CLIP (ViT-H-14), SigLIP2, DINOv2 (ViT-B-14) integrated. PyTorch → ONNX → TensorRT FP16 inference pipeline, GPU VRAM-based dynamic batching, OOM recovery, cosine similarity-based duplicate detection.
+
 - [**KJWADAS**](https://github.com/KJWoo99/KJWADAS): Real-time ADAS — lane detection (UNet++) + object detection (YOLOv8) with hazard alert system.
 
 - [**AutoAware**](https://github.com/KJWoo99/AutoAware): OpenCV-based Driver Monitoring System (DMS) — drowsiness/inattention detection with real-time alerts (FastAPI, MongoDB).
