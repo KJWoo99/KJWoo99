@@ -21,19 +21,19 @@ Currently building production-ready pipelines from model training through ONNX/T
 
 ## 🌟 Key Projects
 
-- [**Animal Disease Diagnosis AI**](https://github.com/KJWoo99/animal_eye_skin_diagnosis): Companion animal eye & skin disease diagnosis — YOLO11l-seg + EfficientNet-B7 two-stage pipeline / ViT-Base-16 per-disease binary classification. 2-stage fine-tuning, AMP, Albumentations (ElasticTransform, GaussNoise, GridDistortion)
+- [**AI System for Companion Animal Disease Diagnosis**](https://github.com/KJWoo99/AI_System_for_Diagnosing_Companion_Animal_Diseases): Companion animal eye, skin & skeletal disease diagnosis — Eye disease: ViT-Base-16 + EfficientNet-B4 per-disease binary classification / Skin disease: YOLO11n-seg detection pipeline / Skeletal disease: EfficientNet-B5 2-phase fine-tuning. WeightedRandomSampler, AMP, EarlyStopping, RAdam.
 
-- [**Media Lens**](https://github.com/KJWoo99/media-lens): AI-powered media management desktop app — CLIP (ViT-H-14), SigLIP2, DINOv2 (ViT-B-14) integrated. PyTorch → ONNX → TensorRT FP16 inference pipeline, GPU VRAM-based dynamic batching, OOM recovery, cosine similarity-based duplicate detection
+- [**Medical Image Classification**](https://github.com/KJWoo99/Medical_Image_Classification): Medical imaging classification across 4 domains — Lung Cancer (YOLOv8n-cls, Top-1 Acc **97.25%**, Malignant recall 100%), Skin Cancer (EfficientNet-B5, HAM10000, AUROC per-class), Gastric Polyp (EfficientNet-B5, endoscopy binary), Dental Disease (EfficientNet-B5, 5-class). Common: 2-phase fine-tuning, WeightedRandomSampler, AMP, ReduceLROnPlateau.
 
-- [**Medical Image Classification**](https://github.com/KJWoo99/Medical_Image_Classification): Deep learning classification on 3 medical domains — Lung Cancer (YOLOv8s-cls, Top-1 Acc 90.83%), Skin Disease (EfficientNet-B5), Dental Disease (EfficientNet-B5, Gradient Accumulation)
+- [**YOLO Object Detection**](https://github.com/KJWoo99/YOLO_Object_Detection): Object detection & instance segmentation across 3 domains — Safety Helmet (YOLOv8n, 3-class), Road Crack (YOLOv8n, 7-class, rect training), Car Damage (YOLO11n-seg, 4-class polygon mask). Pascal VOC XML / JSON polygon → YOLO format conversion pipelines.
 
-- [**KJWADAS**](https://github.com/KJWoo99/KJWADAS): Real-time ADAS — lane detection (UNet++) + object detection (YOLOv8) with hazard alert system
+- [**KJWADAS**](https://github.com/KJWoo99/KJWADAS): Real-time ADAS — lane detection (UNet++) + object detection (YOLOv8) with hazard alert system.
 
-- [**AutoAware**](https://github.com/KJWoo99/AutoAware): OpenCV-based Driver Monitoring System (DMS) — drowsiness/inattention detection with real-time alerts (FastAPI, MongoDB)
+- [**AutoAware**](https://github.com/KJWoo99/AutoAware): OpenCV-based Driver Monitoring System (DMS) — drowsiness/inattention detection with real-time alerts (FastAPI, MongoDB).
 
 ## 📚 Research
 
-- [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): Analysis of concerns and development strategies for AI application in healthcare
+- [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies): Analysis of concerns and development strategies for AI application in healthcare.
 
 ## 📫 Contact
 
