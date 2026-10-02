@@ -26,9 +26,9 @@ Medical AI engineer. I check whether the numbers a model reports can actually be
 
 - [Media Lens](https://github.com/KJWoo99/media-lens): CLIP, SigLIP2, DINOv2 기반 이미지 의미 검색과 중복 탐지.
   PyTorch, ONNX, TensorRT FP16 추론 경로, VRAM 기반 동적 배치와 OOM 복구.
-- [Medical Image Classification](https://github.com/KJWoo99/Medical_Image_Classification): 폐암, 피부암, 위 용종,
+- [Medical Image Classification](https://github.com/KJWoo99/Medical-Image-Classification): 폐암, 피부암, 위 용종,
   치아 질환 영상 분류.
-- [YOLO Object Detection](https://github.com/KJWoo99/YOLO_Object_Detection): 안전모, 도로 균열, 차량 파손 검출과
+- [YOLO Object Detection](https://github.com/KJWoo99/YOLO-Object-Detection): 안전모, 도로 균열, 차량 파손 검출과
   분할.
 - [KJWADAS](https://github.com/KJWoo99/KJWADAS): 차선(UNet++)과 객체(YOLOv8) 검출 기반 실시간 ADAS.
 - [AutoAware](https://github.com/KJWoo99/AutoAware): OpenCV 기반 운전자 졸음, 부주의 감지.
