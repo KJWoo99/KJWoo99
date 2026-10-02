@@ -1,43 +1,40 @@
 # 곽정우 (Jeongwoo Kwak)
 
-AI engineer focused on image processing and computer vision. Also worked on clinical time series and LLM evaluation.
+AI engineer, mostly image processing and computer vision.
 
-영상처리 중심의 AI 엔지니어입니다. 의료 영상(흉부 X선, 뇌 MRI)과 비전 모델을 주로 다뤘고, 임상 시계열과 LLM 평가
-프로젝트도 했습니다. 성능 숫자를 믿어도 되는지 결과를 보기 전에 정한 기준으로 검증하고, 학습부터 ONNX, TensorRT
-배포까지 직접 만듭니다.
+영상처리 위주로 AI 모델을 만들고 있습니다. 최근에는 공개 의료 데이터(MIMIC-IV, MIMIC-CXR, MSD)로 프로젝트를 하면서
+모델 점수가 실제로 어디서 나오는지 확인하는 작업을 많이 했습니다.
 
-## 주요 프로젝트
+## 프로젝트
 
-### 의료 AI 검증
+### 의료 데이터
 
-- [Sepsis Early Warning](https://github.com/KJWoo99/sepsis-early-warning): MIMIC-IV ICU 시계열로 패혈증 조기예측.
-  배양, 항생제 같은 처치 흔적 9개만으로 생리 지표 48개와 같은 성능이 나옴(AUPRC 0.0306 대 0.0308)을 사전등록 기준으로
-  보임. LightGBM, GRU-D, Mamba 세 구조 모두 지름길 비율이 높음.
+- [Hippocampal Volumetry](https://github.com/KJWoo99/hippocampal-volumetry): 뇌 MRI 해마 분할과 부피 측정.
+  MONAI로 학습하고 ONNX, TensorRT FP16까지 배포했습니다. 부피 일치도(ICC)는 0.897이 나왔지만 측정 오차가
+  1년 동안 줄어드는 부피보다 커서, 한 사람을 추적하는 용도로는 부족했습니다.
+- [MIMIC Multimodal Readmission](https://github.com/KJWoo99/mimic-multimodal-readmission): 흉부 X선과 EHR로
+  30일 재입원 예측. X선만으로도 약하게는 예측이 되지만 EHR에 붙이면 성능이 오르지 않았습니다. 누수 컬럼을 넣으면
+  AUROC가 0.70에서 0.83까지 올라가는 것도 확인했습니다.
+- [Sepsis Early Warning](https://github.com/KJWoo99/sepsis-early-warning): ICU 시계열로 패혈증 조기 예측.
+  배양, 항생제 기록 같은 처치 흔적만으로도 생리 지표와 비슷한 성능이 나와서, 성능의 상당 부분이 처치 흔적에서
+  온다는 것을 확인했습니다.
 - [Clinical LLM Memorization Audit](https://github.com/KJWoo99/clinical-llm-memorization-audit): 공개 LLM 16개로
-  퇴원요약에서 약물 목록 추출. 노트를 지우면 16개 중 11개가 F1 0.000 이 되어 외워서 답하지 않음을 확인했고,
-  의료 특화 모델은 같은 계열 기반 모델보다 대체로 낫지 않음(사전등록 짝 2쌍 모두 기반 우세).
-- [MIMIC Multimodal Readmission](https://github.com/KJWoo99/mimic-multimodal-readmission): 흉부 X선과 EHR 로 30일
-  재입원 예측. 영상은 단독으로는 신호가 있지만 EHR 에 더해도 늘지 않음. 누수 컬럼이 AUROC 를 0.70 에서 0.83 으로
-  부풀리는 것을 측정하고 뺌.
-- [Hippocampal Volumetry](https://github.com/KJWoo99/hippocampal-volumetry): MONAI 3D 해마 분할과 부피 정량화.
-  Dice 0.888, 부피 일치도 ICC 0.897 이지만 측정 오차(+/- 9.2%)가 연간 위축보다 커서 종단 추적에는 못 씀을 밝힘.
-  TensorRT FP16 으로 PyTorch 대비 3.07배.
+  퇴원 요약에서 약 목록을 뽑는 평가. 노트를 비우면 16개 중 11개가 0점이라 외워서 답하지는 않았고, 의료 특화
+  모델이 기반 모델보다 낫다고 보기는 어려웠습니다.
 
-### 배포와 비전
+### 비전, 배포
 
-- [Media Lens](https://github.com/KJWoo99/media-lens): CLIP, SigLIP2, DINOv2 기반 이미지 의미 검색과 중복 탐지.
-  PyTorch, ONNX, TensorRT FP16 추론 경로, VRAM 기반 동적 배치와 OOM 복구.
+- [Media Lens](https://github.com/KJWoo99/media-lens): CLIP, SigLIP2, DINOv2로 사진 검색과 중복 사진 찾기.
+  TensorRT FP16으로 추론하고 VRAM에 맞춰 배치 크기를 조절합니다.
 - [Medical Image Classification](https://github.com/KJWoo99/Medical-Image-Classification): 폐암, 피부암, 위 용종,
-  치아 질환 영상 분류.
-- [YOLO Object Detection](https://github.com/KJWoo99/YOLO-Object-Detection): 안전모, 도로 균열, 차량 파손 검출과
-  분할.
-- [KJWADAS](https://github.com/KJWoo99/KJWADAS): 차선(UNet++)과 객체(YOLOv8) 검출 기반 실시간 ADAS.
-- [AutoAware](https://github.com/KJWoo99/AutoAware): OpenCV 기반 운전자 졸음, 부주의 감지.
+  치아 질환 영상 분류
+- [YOLO Object Detection](https://github.com/KJWoo99/YOLO-Object-Detection): 안전모, 도로 균열, 차량 파손 검출
+- [KJWADAS](https://github.com/KJWoo99/KJWADAS): 차선 검출(UNet++)과 객체 검출(YOLOv8)로 만든 ADAS
+- [AutoAware](https://github.com/KJWoo99/AutoAware): OpenCV로 운전자 졸음, 부주의 감지
 
 ## 연구
 
-- [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies):
-  의료 분야 AI 적용의 우려와 전략 분석.
+- [AI in Healthcare: Concerns & Strategies](https://github.com/KJWoo99/Paper-AI-in-Healthcare-Concerns-Strategies)
 
 ## 기술 스택
 
