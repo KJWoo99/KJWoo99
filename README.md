@@ -1,9 +1,10 @@
 # 곽정우 (Jeongwoo Kwak)
 
-Medical AI engineer. I check whether the numbers a model reports can actually be trusted.
+AI engineer focused on image processing and computer vision. Also worked on clinical time series and LLM evaluation.
 
-의료 AI 모델의 성능 숫자를 믿어도 되는지 검증하는 일을 합니다. 지름길 특징, 데이터 누수, 보정, 측정 오차를
-결과를 보기 전에 정한 기준으로 따지고, 학습부터 ONNX, TensorRT 배포까지 직접 만듭니다.
+영상처리 중심의 AI 엔지니어입니다. 의료 영상(흉부 X선, 뇌 MRI)과 비전 모델을 주로 다뤘고, 임상 시계열과 LLM 평가
+프로젝트도 했습니다. 성능 숫자를 믿어도 되는지 결과를 보기 전에 정한 기준으로 검증하고, 학습부터 ONNX, TensorRT
+배포까지 직접 만듭니다.
 
 ## 주요 프로젝트
 
